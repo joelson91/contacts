@@ -6,4 +6,3 @@ class UserForm(FlaskForm):
     nome = StringField("Nome")
     telefone = TelField("Telefone")
     email = EmailField("Email")
-    btn_submit = SubmitField("Salvar")
